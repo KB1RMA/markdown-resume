@@ -29,6 +29,12 @@ h1, h2, h3, h4, ul dl dt {
 .resume {
     position:relative;
     padding: 10px 20px;
+		> blockquote {
+			text-align: right;
+			a[href$='keyedupmedia.com'] {
+				display: block;
+			}
+		}
 }
 
 a {
@@ -43,6 +49,7 @@ a[href$='.pdf'] {
     margin-bottom: 6px;
     text-decoration: none;
 }
+
 
 blockquote {
     margin: 0;
@@ -170,7 +177,7 @@ dl {
         margin: .15em 0 .5em;
         font-style: bold;
     }
-    
+
 }
 
 

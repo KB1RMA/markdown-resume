@@ -17,7 +17,7 @@ body.pdf {
 
     .resume {
         position:relative;
-        padding: 40px 80px;
+        padding: 10px 20px 0px 20px;
     }
 
     a[href$='.pdf'] {
@@ -39,7 +39,7 @@ body.pdf {
     }
     h3 {
         float: left;
-        width: 16%;
+        width: 14%;
         font-style: normal;
     }
     h3+p {
